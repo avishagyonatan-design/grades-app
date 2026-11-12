@@ -1,17 +1,32 @@
-# flutter_application_1
+# אפליקציית ציונים 📋
 
-A new Flutter project.
+אפליקציית Flutter לניהול ציוני תלמידים בעברית (RTL).
 
-## Getting Started
+## מה יש באפליקציה
 
-This project is a starting point for a Flutter application.
+- רשימת תלמידים עם ציון לכל אחד
+- כפתורי **+** ו-**−** לעדכון הציון (0–100)
+- סימון אוטומטי: ✅ עובר (ציון 70 ומעלה) / ❌ נכשל
+- **ממוצע כיתתי** שמתעדכן בזמן אמת בכל שינוי ציון
+- תמיכה מלאה בעברית וכיוון מימין לשמאל (RTL)
 
-A few resources to get you started if this is your first Flutter project:
+## הרצה
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```bash
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## בדיקות
+
+```bash
+flutter test
+```
+
+---
+
+# Grades App
+
+A Flutter app for managing student grades, in Hebrew (RTL).
+
+Students list with scores, +/− buttons, automatic pass/fail indicator (70+), and a live class average.
